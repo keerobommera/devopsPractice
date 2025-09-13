@@ -44,6 +44,10 @@
 		<url>http://repo1.maven.org/maven2</url>
 	    </pluginRepository>
 	</pluginRepositories>
+<build>
+  <sourceDirectory>src/main/java</sourceDirectory>
+  <testSourceDirectory>src/test/java</testSourceDirectory>
+</build>
 
 	
 </project>
