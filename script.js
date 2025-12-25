@@ -1,6 +1,4 @@
 // Smooth scrolling for anchor links
-// new comments
-// new comments
 document.querySelectorAll('a[href^="#"]').forEach(anchor => {
   anchor.addEventListener('click', function (e) {
     e.preventDefault();
