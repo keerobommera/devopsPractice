@@ -1,4 +1,5 @@
 // Form Submission Handling
+// Form Submission Handling
 document.getElementById('contact-form').addEventListener('submit', function (e) {
   e.preventDefault();
   const name = document.getElementById('name').value;
